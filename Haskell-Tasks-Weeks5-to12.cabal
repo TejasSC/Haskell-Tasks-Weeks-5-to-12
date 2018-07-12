@@ -17,6 +17,8 @@ library
   hs-source-dirs:      src
   exposed-modules:     Calc 
                        Parser
+                       Employee
+                       Party 
   ghc-options:         -Wall 
   build-depends:       base >= 4.11 && <4.12
                      , containers
