@@ -15,12 +15,13 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Calc 
+  exposed-modules:     Calc
                        Parser
                        Employee
-                       Party 
-  ghc-options:         -Wall 
+                       Party
+                       AParser
+  ghc-options:         -Wall
   build-depends:       base >= 4.11 && <4.12
                      , containers
-  
+
   default-language:    Haskell2010
